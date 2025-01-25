@@ -13,22 +13,22 @@ import javax.persistence.Id;
 @Entity
 @Getter
 @Setter
-public class Book {
+public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String title;
+    private String firstName;
 
-    private String author;
+    private String lastName;
 
-    private String description;
+    private String email;
 
-    private int publishedYear;
+    private int age;
 
-    private String isbn;
-     private  int stock;
+    private String course;
 
-    // Additional fields can be added as needed
+    // Additional fields or methods if necessary
 }
+
